@@ -12,3 +12,9 @@ Formspree: https://formspree.io/forms/xvolarpw/submissions
 Icons: https://icons8.com/
 google fonts: https://fonts.google.com/
 
+Github and Git cheatsheets:
+
+https://education.github.com/git-cheat-sheet-education.pdf
+
+https://training.github.com/downloads/github-git-cheat-sheet.pdf
+

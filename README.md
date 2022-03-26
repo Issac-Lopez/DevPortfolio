@@ -11,10 +11,19 @@ example website: https://github.com/Ksound22/developer-portfolio
 Formspree: https://formspree.io/forms/xvolarpw/submissions
 Icons: https://icons8.com/
 google fonts: https://fonts.google.com/
+Animate CSS: https://animate.style/
 
 Github and Git cheatsheets:
 
 https://education.github.com/git-cheat-sheet-education.pdf
 
 https://training.github.com/downloads/github-git-cheat-sheet.pdf
+
+checklist for tonight:
+ - Change color of fonts and change font
+ - About me section 
+ - What Styling things I did below:
+    1. added some animations 
+    2. 
+    3.
 

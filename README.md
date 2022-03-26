@@ -24,6 +24,5 @@ checklist for tonight:
  - About me section 
  - What Styling things I did below:
     1. added some animations 
-    2. 
-    3.
+    2. pictures and links
 

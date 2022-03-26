@@ -5,6 +5,8 @@ TO-DO:
 4. styles CSS primary & secondary colors, bold font, etc 
 5. publish on github for free 
     link: https://tinyurl.com/ye7ejb9a 
+6. Work on making a nice read me page on github:
+    https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
 
 resource: https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/
 example website: https://github.com/Ksound22/developer-portfolio

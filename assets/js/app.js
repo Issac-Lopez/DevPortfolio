@@ -1,9 +1,9 @@
-// Nav hamburger selections
+// Nav hamburgerburger selections
 const burger = document.querySelector("#burger-menu");
 const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
 
-// Scroll to top functionality
+// Scroll to top selection
 const scrollUp = document.querySelector("#scroll-up");
 
 // Select nav links
@@ -21,6 +21,7 @@ navLink.forEach((link) =>
   })
 );
 
+// scroll to top functionality
 scrollUp.addEventListener("click", () => {
   window.scrollTo({
     top: 0,

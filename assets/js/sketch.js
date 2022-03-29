@@ -1,7 +1,7 @@
 const margin = 25;
 
 function setup() {
-  let canvas = createCanvas(600, 600);
+  let canvas = createCanvas(450, 450);
   canvas.parent('sketchContainer');
   noLoop();
   strokeWeight(2);

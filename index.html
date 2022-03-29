@@ -9,6 +9,10 @@
   <!--CSS Styles -->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
+  <!--p5.js libraries-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
@@ -36,7 +40,9 @@
 
   <!-- Hero Section -->
   <section class="hero" id="about">
-    <img src="backgroundImage.jpg" alt="backgroundImage" loading="lazy" class="hero-img" />
+
+    <div id="sketchContainer" alt="image" loading="lazy" class="bio animate__animated animate__backInLeft">
+    </div>
     <div class="bio animate__animated animate__backInRight">
       <h2 class="bio-title">About Me</h2>
       <p class="bio-text">
@@ -47,6 +53,25 @@
         Have fun exploring!
       </p>
     </div>
+  </section>
+
+  <!-- More about -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+      autem deleniti cupiditate molestias quis unde quae totam porro dicta
+      iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+      nostrum dolor minus, libero delectus praesentium perferendis
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+      consequuntur labore? Ea totam voluptas amet!
+    </p>
   </section>
 
   <!-- Skills section -->
@@ -73,10 +98,10 @@
 
   <!-- Projects section -->
   <section class="projects" id="projects">
-    <h2 class="projects-title">A Few Recent Projects</h2>
+    <h2 class="projects-title">A Couple Recent Projects</h2>
     <div class="projects-container">
       <div class="project-container project-card">
-        <img src="" alt="image-manipulation" loading="lazy" class="project-pic" />
+        <img src="assets/images/generated_rect.jpg" alt="image-manipulation" loading="lazy" class="project-pic" />
         <h3 class="project-title">Image Manipulation</h3>
         <p class="project-details">
           Purpose of this project is to create an application which is able to
@@ -85,7 +110,7 @@
         <a href="#" target="_blank" class="project-link">Click me to check it out</a>
       </div>
       <div class="project-container project-card">
-        <img src="" alt="student-records" loading="lazy" class="project-pic" />
+        <img src="assets/images/placeHolder.jpg" alt="student-records" loading="lazy" class="project-pic" />
         <h3 class="project-title">Student Record Keeper</h3>
         <p class="project-details">
           Takes student information from a CSV file and outputs it into a
@@ -94,7 +119,7 @@
         <a href="#" target="_blank" class="project-link">Click me to check it out</a>
       </div>
       <div class="project-container project-card">
-        <img src="" alt="third-project" loading="lazy" class="project-pic" />
+        <img src="assets/images/placeHolder.jpg" alt="third-project" loading="lazy" class="project-pic" />
         <h3 class="project-title">Sorting Implementation Project</h3>
         <p class="project-details">
           The purpose of this project is to generate random numbers to be sorted via
@@ -158,6 +183,7 @@
 
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/sketch.js"></script>
 
     <!-- Ion icons scripts -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

@@ -1,7 +1,9 @@
 TO-DO:
-1. Work on projects section. Add projects with images to go with them.
+1. Work on projects section.
+    - images
+    - descriptions on github(readme)
 2. Formspree for serverless form submissions to lopezissaca@gmail.com
-3. Add socials - github, twitter, linkedn etc.
+    - find better template for the contact section
 4. styles CSS primary & secondary colors, bold font, etc 
 5. publish on github for free 
     link: https://tinyurl.com/ye7ejb9a 
@@ -20,12 +22,5 @@ Github and Git cheatsheets:
 https://education.github.com/git-cheat-sheet-education.pdf
 
 https://training.github.com/downloads/github-git-cheat-sheet.pdf
-
-checklist for tonight:
- - Change color of fonts and change font
- - About me section 
- - What Styling things I did below:
-    1. added some animations 
-    2. pictures and links
 
 

@@ -1,7 +1,8 @@
 TO-DO:
 1. Work on projects section.
     - images
-    - descriptions on github(readme)
+    - descriptions on github(readme) 
+    - repo for processing and p5.js files.
 2. Formspree for serverless form submissions to lopezissaca@gmail.com
     - find better template for the contact section
 4. styles CSS primary & secondary colors, bold font, etc 

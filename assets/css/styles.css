@@ -6,16 +6,17 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
+  --bg-color: #F8F8F8;
+  --primary-color: #0A2463;
+  --secondary-color: #FB3640;
+  --primary-shadow: #94C5CC;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
+
 /* Variables end */
 
 html {
@@ -80,6 +81,7 @@ nav a {
   color: var(--primary-color);
   transition: var(--transition);
 }
+
 nav a:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
@@ -102,6 +104,7 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
+
 /* Navbar ends */
 
 /* Hero section */
@@ -115,7 +118,7 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
+  height: 25rem;
   width: 30rem;
 }
 
@@ -134,6 +137,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
+
 /* Hero section ends */
 
 /* More about */
@@ -152,6 +156,7 @@ nav ul li {
   padding: 0.4rem;
   text-align: center;
 }
+
 /* More about ends */
 
 /* Skills section */
@@ -174,6 +179,7 @@ nav ul li {
   width: 11.875rem;
   height: 11.25rem;
 }
+
 /* Skills section ends */
 
 /* Projects section */
@@ -281,6 +287,7 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+
 /* Contacts section ends */
 
 /* Social buttons */
@@ -296,6 +303,7 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
+
 /* Social button ends */
 
 /* Scroll to top button */
@@ -310,6 +318,7 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
+
 /* Scroll to top button ends */
 
 /* Footer section */
@@ -319,6 +328,7 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
 }
+
 /* Footer section ends */
 
 /* General (utilities) */
@@ -343,6 +353,7 @@ footer {
   nav {
     padding: 1.5rem 1rem;
   }
+
   nav ul {
     position: fixed;
     background-color: var(--bg-color);

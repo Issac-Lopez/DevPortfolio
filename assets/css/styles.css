@@ -6,11 +6,11 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #F8F8F8;
-  --primary-color: #0A2463;
-  --secondary-color: #FB3640;
-  --primary-shadow: #94C5CC;
-  --secondary-shadow: #a17a69;
+  --bg-color: #DAD7CD;
+  --primary-color: #344E41;
+  --secondary-color: #A3B18A;
+  --primary-shadow: #3A5A40;
+  --secondary-shadow: #3A5A40;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -59,17 +59,21 @@ nav {
   position: static;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 1.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
   color: var(--primary-color);
+}
+
+nav h1:hover {
+  color: var(--secondary-color);
 }
 
 nav a {
@@ -79,12 +83,12 @@ nav a {
 
 nav a:hover {
   color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 nav ul {
   display: flex;
-  gap: 1.9rem;
+  gap: 1.5rem;
 }
 
 nav ul li {

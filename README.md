@@ -19,4 +19,9 @@ Github and Git cheatsheets:
 https://education.github.com/git-cheat-sheet-education.pdf
 https://training.github.com/downloads/github-git-cheat-sheet.pdf
 
-
+changelog:
+    - moved socials to footer 
+    -
+    -
+    -
+    -
